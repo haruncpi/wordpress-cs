@@ -1,4 +1,4 @@
-# WordPress Coding Standard Setup
+# WordPress Coding Standard Setup Guideline
 
 ### 1. Install composer packages
 ```    
@@ -23,9 +23,17 @@ phpcs -i
 ```
 **[Note]** change  `your_username`  
 ### 2. Set WordPress as default coding standard
-[Note] change `your_username`   
+[Note] change `your_username`
+    
 ```
 phpcs --config-set installed_paths /Users/your_username/.composer/vendor/wp-coding-standards/wpcs
+```
+
+**Default Standard**
+Set default CS
+
+```
+phpcs --config-set default_standard WordPress
 ```
 
 **Installation Test**  
@@ -34,7 +42,7 @@ phpcs --config-set installed_paths /Users/your_username/.composer/vendor/wp-codi
 phpcs --config-show
 ```
 
-### 3. Run `phpcs` for validate your php file, run
+### 3. For validate your php file, run
     
 ```
 phpcs abc.php
