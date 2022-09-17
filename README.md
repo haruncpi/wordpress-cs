@@ -1,4 +1,4 @@
-# WordPress Coding Standard Setup Guideline
+# WPCS Setup Guideline
 
 ### 1. Install composer packages
 ```    
