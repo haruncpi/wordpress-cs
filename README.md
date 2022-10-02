@@ -8,11 +8,15 @@ composer global require squizlabs/php_codesniffer
 composer global require wp-coding-standards/wpcs
 ```
     
-**Installation Test**: Run the below command for checking phpcs is installed correctly.
+**Installation Test**: Run the below command for checking `phpcs` is installed correctly.
 
 ``` 
 phpcs -i
 ```
+
+**Problem Fix:** command not found: `phpcs`
+
+To fix this problem, add the `phpcs` path to your PATH variable.
 
 `phpcs` and `phpcbf` installed path.  
 ```
@@ -42,13 +46,13 @@ phpcs --config-set default_standard WordPress
 phpcs --config-show
 ```
 
-### 3. For validate your php file, run
+### 3. To check a php file, run
     
 ```
 phpcs abc.php
 ```
 
-### 4. Run `phpcs` for automatic fix, run
+### 4. Run `phpcbf` for automatic fix, run
 
 ```
 phpcbf abc.php
