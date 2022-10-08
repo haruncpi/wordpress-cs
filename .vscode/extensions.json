@@ -1,3 +1,9 @@
 {
-  "recommendations":[]
+  "recommendations":[
+     "bmewburn.vscode-intelephense-client",
+     "zobo.php-intellisense",
+     "neilbrayfield.php-docblocker",
+     "ikappas.phpcs",
+     "junstyle.php-cs-fixer"
+  ]
 }
